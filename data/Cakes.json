@@ -1,0 +1,24 @@
+[
+  {
+	"name":"Cakes",
+	"items": [
+	  {"name":"Gems & Kitkat Cake",   "brand": "PAB", "price": "Price Varies*", "addToCart": false, "showAddToCart": false, "img": ""},
+	  {"name":"Dulche De Leche ",     "brand": "PAB", "price": "650", "addToCart": false, "showAddToCart": false, "img":""},
+	  {"name":"Melting Moments",      "brand": "PAB", "price": "750", "addToCart": false, "showAddToCart": false, "img":""},
+	  {"name":"Crown Cake",           "brand": "PAB", "price": "1050","addToCart": false, "showAddToCart": false, "img":""},
+	  {"name":"Royal Chocolate",      "brand": "PAB", "price": "550", "addToCart": false, "showAddToCart": false, "img":""},
+	  {"name":"Double Chocolate",     "brand": "PAB", "price": "650", "addToCart": false, "showAddToCart": false, "img":""},
+	  {"name":"Theme Cake",           "brand": "PAB", "price": "Price Varies*", "addToCart": false, "showAddToCart": false, "img":""},
+	  {"name":"Cappuccino Cake",      "brand": "PAB", "price": "750", "addToCart": false, "showAddToCart": false, "img":""},
+	  {"name":"Butterscotch Cake",    "brand": "PAB", "price": "750", "addToCart": false, "showAddToCart": false, "img":""},
+	  {"name":"Chocolate Truffle",    "brand": "PAB", "price": "750", "addToCart": false, "showAddToCart": false, "img":""},
+	  {"name":"Fig & Honey Cake",     "brand": "PAB", "price": "500", "addToCart": false, "showAddToCart": false, "img":""},
+	  {"name":"Black Forest Cake",    "brand": "PAB", "price": "600", "addToCart": false, "showAddToCart": false, "img":""},
+	  {"name":"White Forest",         "brand": "PAB", "price": "600", "addToCart": false, "showAddToCart": false, "img":""},
+	  {"name":"German black Forest ", "brand": "PAB", "price": "650", "addToCart": false, "showAddToCart": false, "img":""},
+	  {"name":"Fruit Flavoured Cake ","brand": "PAB", "price": "400", "addToCart": false, "showAddToCart": false, "img":""},
+	  {"name":"Vanilla Cake ",        "brand": "PAB", "price": "350", "addToCart": false, "showAddToCart": false, "img":""}
+  	]
+  }
+
+]
