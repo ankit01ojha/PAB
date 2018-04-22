@@ -2,22 +2,22 @@
   {
 	"name":"Cakes",
 	"items": [
-	  {"name":"Gems & Kitkat Cake",   "brand": "PAB", "price": "Price Varies*", "addToCart": false, "showAddToCart": false, "img": ""},
-	  {"name":"Dulche De Leche ",     "brand": "PAB", "price": "650", "addToCart": false, "showAddToCart": false, "img":""},
-	  {"name":"Melting Moments",      "brand": "PAB", "price": "750", "addToCart": false, "showAddToCart": false, "img":""},
-	  {"name":"Crown Cake",           "brand": "PAB", "price": "1050","addToCart": false, "showAddToCart": false, "img":""},
-	  {"name":"Royal Chocolate",      "brand": "PAB", "price": "550", "addToCart": false, "showAddToCart": false, "img":""},
-	  {"name":"Double Chocolate",     "brand": "PAB", "price": "650", "addToCart": false, "showAddToCart": false, "img":""},
-	  {"name":"Theme Cake",           "brand": "PAB", "price": "Price Varies*", "addToCart": false, "showAddToCart": false, "img":""},
-	  {"name":"Cappuccino Cake",      "brand": "PAB", "price": "750", "addToCart": false, "showAddToCart": false, "img":""},
-	  {"name":"Butterscotch Cake",    "brand": "PAB", "price": "750", "addToCart": false, "showAddToCart": false, "img":""},
-	  {"name":"Chocolate Truffle",    "brand": "PAB", "price": "750", "addToCart": false, "showAddToCart": false, "img":""},
-	  {"name":"Fig & Honey Cake",     "brand": "PAB", "price": "500", "addToCart": false, "showAddToCart": false, "img":""},
-	  {"name":"Black Forest Cake",    "brand": "PAB", "price": "600", "addToCart": false, "showAddToCart": false, "img":""},
-	  {"name":"White Forest",         "brand": "PAB", "price": "600", "addToCart": false, "showAddToCart": false, "img":""},
-	  {"name":"German black Forest ", "brand": "PAB", "price": "650", "addToCart": false, "showAddToCart": false, "img":""},
-	  {"name":"Fruit Flavoured Cake ","brand": "PAB", "price": "400", "addToCart": false, "showAddToCart": false, "img":""},
-	  {"name":"Vanilla Cake ",        "brand": "PAB", "price": "350", "addToCart": false, "showAddToCart": false, "img":""}
+	  {"name":"Gems & Kitkat Cake",   "brand": "PAB", "price": "Price Varies*", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/Cakes/gems-and-kitkat-cake.jpg"},
+	  {"name":"Dulche De Leche ",     "brand": "PAB", "price": "650", "quantity": 0, "addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/Dulche De Leche.jpg"},
+	  {"name":"Melting Moments",      "brand": "PAB", "price": "750", "quantity": 0, "addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/melting-moments.jpg"},
+	  {"name":"Crown Cake",           "brand": "PAB", "price": "1050", "quantity": 0,"addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/crown-cake.jpg"},
+	  {"name":"Royal Chocolate",      "brand": "PAB", "price": "550", "quantity": 0, "addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/royal-chocolate.jpg"},
+	  {"name":"Double Chocolate",     "brand": "PAB", "price": "650", "quantity": 0, "addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/Double Chocolate.jpg"},
+	  {"name":"Theme Cake",           "brand": "PAB", "price": "Price Varies*", "quantity": 0, "addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/theme.jpg"},
+	  {"name":"Cappuccino Cake",      "brand": "PAB", "price": "750", "quantity": 0, "addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/Cappuccino_Cake.jpg"},
+	  {"name":"Butterscotch Cake",    "brand": "PAB", "price": "750", "quantity": 0, "addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/butterscotch_cake.jpg"},
+	  {"name":"Chocolate Truffle",    "brand": "PAB", "price": "750", "quantity": 0, "addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/Chocolate Truffle.jpg"},
+	  {"name":"Fig & Honey Cake",     "brand": "PAB", "price": "500", "quantity": 0, "addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/Fig_Honey_Almond.jpg"},
+	  {"name":"Black Forest Cake",    "brand": "PAB", "price": "600", "quantity": 0, "addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/black_forest_cake.jpeg"},
+	  {"name":"White Forest",         "brand": "PAB", "price": "600", "quantity": 0, "addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/white-forest.jpg"},
+	  {"name":"German black Forest ", "brand": "PAB", "price": "650", "quantity": 0, "addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/German_Black.jpg"},
+	  {"name":"Fruit Flavoured Cake ","brand": "PAB", "price": "400", "quantity": 0, "addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/"},
+	  {"name":"Vanilla Cake ",        "brand": "PAB", "price": "350", "quantity": 0, "addToCart": false, "showAddToCart": false, "img":"img/food/Cakes/"}
   	]
   }
 

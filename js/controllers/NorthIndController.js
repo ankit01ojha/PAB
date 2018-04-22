@@ -1,13 +1,15 @@
-var app = angular.module( 'shopApp', [] );
+
 app.controller( 'NorthIndController', function( $scope,$http ) {
     $scope.contents =  null;
     $scope.added = [];
     var Totprice = 0;
     $scope.predicate = 'price';
     $scope.addedToCart = false;
+    $scope.checked = false;
+
     var flag =0;
 
-    $http.get( 'data/category.json' )
+    $http.get( 'data/NorthInd.json' )
         .success( function( data ) {
             $scope.contents = data;
         })
@@ -24,49 +26,34 @@ app.controller( 'NorthIndController', function( $scope,$http ) {
             quantity: parseInt(quantity)
         };
 
-            Totprice = parseInt(Totprice) + parseInt(item.price); 
+            Totprice = parseInt(Totprice) + parseInt(item.price);
             Totprice = Totprice*quantity;
-            
+
             for(var i=0;i<$scope.added.length;i++){
                 if(item.name == $scope.added[i].name){
                         alert("item already added to the cart");
                         $scope.total = $scope.total - ($scope.added[index].price * $scope.added[index].quantity);
                         $scope.added.splice(index, 1);
                         break;
-                    
+
                 }
              }
             $scope.added.push( item );
-            alert(item.quantity + " " +item.name + " added to cart");
-
-            // Delivery charge calculation
-            $scope.delivery = 0;
-            if(Totprice<=300){
-                $scope.delivery = 50;
-            }
-            if(Totprice>300 && Totprice<=400){
-                $scope.delivery = 40;
-            }
-            if(Totprice>400 && Totprice<=500){
-                $scope.delivery = 30;
-            }
-            if(Totprice>500){
-                $scope.delivery = 30;
-            }
+            //alert(item.quantity + " " +item.name + " added to cart");
 
             //total charge calculation
-            $scope.total = $scope.delivery + Totprice;
-            
-    
+            $scope.total = Totprice;
+
+
         }
 
 
     $scope.recalculateTotal = function(item){
         $scope.total =0;
        for(var i=0;i<$scope.added.length;i++){
-        
+
            $scope.total = $scope.total + ($scope.added[i].price*$scope.added[i].quantity);
-        
+
       }
 
        $scope.delivery = 0;
@@ -83,7 +70,7 @@ app.controller( 'NorthIndController', function( $scope,$http ) {
             if($scope.total>500){
                 $scope.delivery = 30;
             }
-            
+
 
             //total charge calculation
             $scope.total = $scope.delivery + $scope.total;
@@ -112,7 +99,7 @@ app.controller( 'NorthIndController', function( $scope,$http ) {
       for(var i=0;i<$scope.added.length;i++){
         if(item.name == $scope.added[i].name){
             $scope.added[i].quantity--;
-            
+
         }
       }
       if (item.quantity <= 0) {
@@ -124,7 +111,7 @@ app.controller( 'NorthIndController', function( $scope,$http ) {
                 if(item.name == $scope.added[index].name){
                 $scope.total = $scope.total - ($scope.added[index].price * $scope.added[index].quantity);
                 $scope.added.splice(index, 1);
-            
+
         }
       }
 
@@ -146,12 +133,17 @@ app.controller( 'NorthIndController', function( $scope,$http ) {
         if(item.name == $scope.added[index].name){
             $scope.total = $scope.total - ($scope.added[index].price * $scope.added[index].quantity);
             $scope.added.splice(index, 1);
-            
+
         }
       }
       //$scope.recalculateTotal(item);
     }
-  
+
+    $scope.check = function(){
+      $scope.checked = true;
+      return $scope.checked;
+    }
+
 
 
 

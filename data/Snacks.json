@@ -2,15 +2,15 @@
   {
 	"name":"Snacks",
 	"items": [
-	  {"name":"Samosa(2pcs.)", 		"brand": "PAB", "price": "25", "quantity": 0, "addToCart": false, "showAddToCart": false,"image": "img/cholebhature.jpg"},
-	  {"name":"Pakodas(Weight)",    "brand": "PAB", "price": "28", "quantity": 0, "addToCart": false, "showAddToCart": false, "image": "img/cholebhature.jpg"},
-	  {"name":"Bread Pakoda Stuffed(2 pcs.)", "brand": "PAB", "price": "25", "quantity": 0, "addToCart": false, "showAddToCart": false, "image": "img/cholebhature.jpg"},
-	  {"name":"Bread Pakoda(2pcs)", "brand": "PAB", "price": "23", "quantity": 0, "addToCart": false, "showAddToCart": false, "image": "img/cholebhature.jpg"},
-	  {"name":"Aloo Chops(weight)", "brand": "PAB", "price": "23", "quantity": 0, "addToCart": false, "showAddToCart": false},
-	  {"name":"Veg Momos(6 pcs.)",  "brand": "PAB", "price": "50", "quantity": 0, "addToCart": false, "showAddToCart": false},
-	  {"name":"Egg Roll", 			"brand": "PAB", "price": "30", "quantity": 0, "addToCart": false, "showAddToCart": false},
-	  {"name":"Kachori", 			"brand": "PAB", "price": "15", "quantity": 0, "addToCart": false, "showAddToCart": false},
-	  {"name":"Paneer Roll", 		"brand": "PAB", "price": "30", "quantity": 0, "addToCart": false, "showAddToCart": false}
+	  {"name":"Samosa(2pcs.)", 		            "brand": "PAB", "price": "25", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/Snacks/samosa.jpg"},
+	  {"name":"Pakodas(Weight)",              "brand": "PAB", "price": "28", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/Snacks/pakoda.jpg"},
+	  {"name":"Bread Pakoda Stuffed(2 pcs.)", "brand": "PAB", "price": "25", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/Snacks/stuffed_pakoda.jpg"},
+	  {"name":"Bread Pakoda(2pcs)",           "brand": "PAB", "price": "23", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/Snacks/plain-bread-pakoda.jpg"},
+	  {"name":"Aloo Chops(weight)",           "brand": "PAB", "price": "23", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/Snacks/aloo_chops.png"},
+	  {"name":"Veg Momos(6 pcs.)",            "brand": "PAB", "price": "50", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/Snacks/veg_momos.jpeg"},
+	  {"name":"Egg Roll", 			              "brand": "PAB", "price": "30", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/Snacks/egg_rolls.jpg"},
+	  {"name":"Kachori", 			                "brand": "PAB", "price": "15", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/Snacks/kachori.jpg"},
+	  {"name":"Paneer Roll", 		              "brand": "PAB", "price": "30", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/Snacks/paneer_rolls.jpg"}
   	]
   }
 
