@@ -26,14 +26,6 @@
 
 </head>
 <body ng-app="shopApp" ng-controller="SnacksController">
-    <!--<button type="button" class="btn btn-default">Show me</button>-->
-    <!--<div ng-app="shopApp" ng-controller="mainController">-->
-        <!--<div id="content">-->
-            <!--<div ng-repeat="content in contents">-->
-                <!--<p>{{content.name}}</p>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -54,15 +46,11 @@
                     <li><a href="Cakes.html">Cakes</a></li>
                     <li class="active"><a href="Snacks.html">Snacks<span class="sr-only">(current)</span></a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
+                            <li><a href="#">How it started</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Social Media</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -101,7 +89,7 @@
             <h3 id="item-header">{{content.name}}</h3>
             <div class="col-xs-18 cl-sm-6 col-md-3" ng-repeat="item in content.items | orderBy:'price':reverse">
                 <div class="thumbnail">
-                    <img class="card-img-top" src={{item.image}} alt="Card image cap">
+                    <img class="card-img-top" src="img/food/food.jpeg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">{{item.name}}</h4>
                         <br class="card-text">
@@ -211,7 +199,7 @@
                       <button type="submit" class="btn btn-success btn-block">Proceed for payement</button>
                       <button type="button" class="btn btn-danger btn-block" data-dismiss="modal">Close</button>
                     </div>
-                    <input type="hidden" name="_next" value="https://www.instamojo.com/@pickabite/" />
+                    <input type="hidden" name="_next" value="" />
                 </form>
 
                 <div class="row" >

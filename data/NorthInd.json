@@ -3,20 +3,20 @@
   {
 	"name":"North Indian",
 	"items": [
-	  {"name":"Poori Masala",    "brand": "PAB", "price": "35", "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/poori_masala.jpg"},
-	  {"name":"Bhel Puri",       "brand": "PAB", "price": "30", "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/Bhel_Puri.jpg"},
-	  {"name":"Vada Pav",        "brand": "PAB", "price": "30", "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/vada_pav.jpg"},
-	  {"name":"Sev Puri",        "brand": "PAB", "price": "25", "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/sev_puri.jpg"},
-	  {"name":"Rajma Chawal",    "brand": "PAB", "price": "50", "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/rajma_chawal.jpg"},
-	  {"name":"Kadi Chawal",     "brand": "PAB", "price": "50", "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/kadi_chawal.jpg"},
-	  {"name":"Veg Meals",       "brand": "PAB", "price": "50", "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/veg_meals.jpg"},
-	  {"name":"Poha",            "brand": "PAB", "price": "35", "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/poha.jpg"},
-	  {"name":"Aloo Parantha",   "brand": "PAB", "price": "30", "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/Aloo_paratha.jpg"},
-	  {"name":"Veg Parantha",    "brand": "PAB", "price": "30", "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/veg_paratha.jpg"},
-	  {"name":"Plain Parantha",  "brand": "PAB", "price": "15", "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/plain_paratha.jpg"},
-	  {"name":"Soya Parantha",   "brand": "PAB", "price": "25", "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/soya_paratha.jpg"},
-	  {"name":"Cabbage Parantha","brand": "PAB", "price": "20", "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/cabbage_paratha.jpg"},
-	  {"name":"Carrot Parantha", "brand": "PAB", "price": "25", "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/carrot_paratha.jpg"}
+	  {"name":"Poori Masala",    "brand": "PAB", "price": "35", "quantity": 0,  "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/poori_masala.jpg"},
+	  {"name":"Bhel Puri",       "brand": "PAB", "price": "30","quantity": 0,  "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/Bhel_Puri.jpg"},
+	  {"name":"Vada Pav",        "brand": "PAB", "price": "30", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/vada_pav.jpg"},
+	  {"name":"Sev Puri",        "brand": "PAB", "price": "25","quantity": 0,  "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/sev_puri.jpg"},
+	  {"name":"Rajma Chawal",    "brand": "PAB", "price": "50","quantity": 0,  "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/rajma_chawal.jpg"},
+	  {"name":"Kadi Chawal",     "brand": "PAB", "price": "50", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/kadi_chawal.jpg"},
+	  {"name":"Veg Meals",       "brand": "PAB", "price": "50", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/veg_meals.jpg"},
+	  {"name":"Poha",            "brand": "PAB", "price": "35", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/poha.jpg"},
+	  {"name":"Aloo Parantha",   "brand": "PAB", "price": "30","quantity": 0,  "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/Aloo_paratha.jpg"},
+	  {"name":"Veg Parantha",    "brand": "PAB", "price": "30","quantity": 0,  "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/veg_paratha.jpg"},
+	  {"name":"Plain Parantha",  "brand": "PAB", "price": "15","quantity": 0,  "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/plain_paratha.jpg"},
+	  {"name":"Soya Parantha",   "brand": "PAB", "price": "25","quantity": 0,  "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/soya_paratha.jpg"},
+	  {"name":"Cabbage Parantha","brand": "PAB", "price": "20","quantity": 0,  "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/cabbage_paratha.jpg"},
+	  {"name":"Carrot Parantha", "brand": "PAB", "price": "25", "quantity": 0, "addToCart": false, "showAddToCart": false, "img": "img/food/NorthInd/carrot_paratha.jpg"}
 	]
   }
 ]

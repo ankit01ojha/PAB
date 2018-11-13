@@ -1,6 +1,4 @@
-/**
- * Created by tina on 7/4/16.
- */
+
 
 var app = angular.module('shopApp', ['ngRoute']);
 
@@ -12,10 +10,6 @@ app.config(function($routeProvider, $locationProvider) {
         .when('/', {
             templateUrl : 'index.html',
             controller  : 'mainController'
-        })
-        .when('/success', {
-            templateUrl : 'partials/success.html',
-            controller  : 'loginController'
         })
         .otherwise({ redirectTo: '/' });
 

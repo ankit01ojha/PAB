@@ -1,0 +1,27 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "pick a bite website",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "nodemon": "^1.18.6",
+    "typed.js": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankit01ojha/PAB.git"
+  },
+  "author": "Ankit Raj Ojha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankit01ojha/PAB/issues"
+  },
+  "homepage": "https://github.com/ankit01ojha/PAB#readme"
+}
